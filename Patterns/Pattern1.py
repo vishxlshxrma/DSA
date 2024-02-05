@@ -1,5 +1,5 @@
 '''
-Given an integer N, print the following pattern.
+Problem Statement: Given an integer N, print the following pattern.
 
 Example 1:
 Input: N = 3
