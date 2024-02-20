@@ -58,7 +58,8 @@ def reverseBits(n):
 '''
 
 1. `bin(n)[2:]`: Converts the integer `n` to its binary representation as a string, and `[2:]` is used to remove the '0b' prefix.
-2. `y.zfill(32)`: Fills the binary string `y` with leading zeros to make its length 32. This ensures that the binary representation is a 32-bit string.
+2. `y.zfill(32)`: Fills the binary string `y` with leading zeros to make its length 32. This ensures that the binary 
+representation is a 32-bit string.
 
 The code then checks if `n` is non-negative or negative and processes accordingly:
 
