@@ -1,5 +1,5 @@
 '''
-Problem statement
+Problem statement:
 Given an array 'v' of 'n' numbers.
 Your task is to find and return the highest and lowest frequency elements.
 

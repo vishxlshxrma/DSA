@@ -1,5 +1,5 @@
 '''
-Problem statement
+Problem statement:
 You are given two integers 'n', and 'm'.
 
 Calculate 'gcd(n,m)', without using library functions.

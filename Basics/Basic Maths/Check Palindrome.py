@@ -1,5 +1,5 @@
 '''
-Problem statement
+Problem statement:
 Check whether a given number 'n' is a palindrome number.
 
 Note :

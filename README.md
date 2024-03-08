@@ -15,7 +15,7 @@ The problems are organized into the following categories:
     1. **Basic Maths**
     2. **Basic Recursion**
     3. **Basic Hashing**
-
+3 **Sorting**
 
 Each category contains a set of problems with explanations and solutions in python.
 

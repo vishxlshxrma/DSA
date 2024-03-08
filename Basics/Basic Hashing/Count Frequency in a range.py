@@ -1,5 +1,5 @@
 '''
-Problem statement
+Problem statement:
 You are given an array 'arr' of length 'n' containing integers within the range '1' to 'x'.
 
 Your task is to count the frequency of all elements from 1 to n.
