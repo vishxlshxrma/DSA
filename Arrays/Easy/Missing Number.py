@@ -17,7 +17,7 @@ Explanation: n = 2 since there are 2 numbers, so all numbers are in the range [0
 in the range since it does not appear in nums.
 '''
 class Solution:
-    def missingNumber(self, nums: List[int]) -> int:
+    def missingNumber(self, nums: list[int]) -> int:
         n = len (nums)
 
         s1 = (n)*(n+1)/2
