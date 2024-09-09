@@ -27,7 +27,7 @@ from typing import List
 
 
 class Solution:
-    def largest(self, arr : List[int]) -> int:
+    def largest(self, arr : list[int]) -> int:
         a = arr[0]
         for i in range (1,len(arr)):
             if (arr[i] > a):

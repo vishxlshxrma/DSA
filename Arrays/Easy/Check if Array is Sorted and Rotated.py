@@ -31,7 +31,7 @@ You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
 '''
 
 class Solution:
-    def check(self, nums: List[int]) -> bool:
+    def check(self, nums: list[int]) -> bool:
         count = 0
         n = len(nums)
         for i in range(1,n):
