@@ -18,7 +18,7 @@ Output: [0,1,2]
 '''
 
 class Solution:
-    def sortColors(self, nums: List[int]) -> None:
+    def sortColors(self, nums: list[int]) -> None:
         n = len(nums)
         for i in range(n-1,0,-1):
             for j in range(i):
