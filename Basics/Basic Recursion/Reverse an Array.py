@@ -14,7 +14,9 @@ Explanation: After reversing the array, it looks like this [3, 6, 1, 8, 7, 5].
 
 '''
 
-from typing import *
-
-def reverseArray(n: int, nums: List[int]) -> List[int]:
-    return nums[::-1]
+class Solution:
+    def reverseArray(self, arr, start, end):
+        if (start >= end):
+            return
+        arr[start], arr[end] = arr[end], arr[start]
+        self.reverseArray(arr, start + 1, end - 1)
