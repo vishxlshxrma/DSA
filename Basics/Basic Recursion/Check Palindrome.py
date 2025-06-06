@@ -14,9 +14,18 @@ Explanation: "racecar" is a palindrome.
 
 '''
 
-def isPalindrome(string: str) -> bool:
-    res = string[::-1]
-    if (res == string):
-        return True
-    else:
-        return False
+class Solution(object):
+    def isPalindrome(self, s):
+        s = ''.join(char.lower() for char in s if char.isalnum())
+        def helper(start, end):
+            if (start >= end):
+                return True
+            if (s[start] != s[end]):
+                return False
+            return helper(start + 1, end - 1)
+        return helper (0, len(s) - 1)
+    
+'''
+s = ''.join(char.lower() for char in s if char.isalnum())
+Keep only alphanumeric and lowercase everything
+'''
