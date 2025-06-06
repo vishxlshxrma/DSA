@@ -16,5 +16,9 @@ Explanation: The sum of the first 3 natural numbers is 1 + 2 + 3, equal to 6.
 
 from typing import List
 
-def sumFirstN(n: int) -> int:
-    return n * (n+1) // 2
+class Solution:
+    sum = 0
+    def NnumbersSum(self, N):
+        if (N <= 0):
+            return 0
+        return N + self.NnumbersSum(N-1)
