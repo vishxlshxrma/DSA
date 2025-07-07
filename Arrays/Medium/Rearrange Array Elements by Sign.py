@@ -29,57 +29,18 @@ So nums is rearranged to [1,-1].
 '''
 
 class Solution:
-    def rearrangeArray(self, nums: list[int]) -> list[int]:
-        pos = []
-        neg = []
+    def rearrangeArray(self, nums: List[int]) -> List[int]:
+        po = 0
+        ne = 1
 
-        for num in nums:
-            if num < 0:
-                neg.append(num)
-            else:
-                pos.append(num)
-            
-        ans = []
-        for a,b in zip(pos,neg):
-            ans.append(a)
-            ans.append(b)
-        
-        return ans
-    
-'''
-The `zip()` function is used to pair elements from the two arrays (`a` and `b`) by their index. It allows us 
-to iterate through both arrays simultaneously, combining their elements alternately.
+        result = [0] * len(nums)
 
-How `zip()` Works Here:
+        for i in nums:
+            if (i >= 0):
+                result[po] = i
+                po += 2
+            if (i < 0):
+                result[ne] = i
+                ne += 2
 
-Given:
-```python
-a = [1, 2, 3]
-b = [4, 5, 6]
-```
-
-Using `zip(a, b)`:
-- It creates pairs: `(1, 4)`, `(2, 5)`, `(3, 6)`.
-- These pairs are then used to append the elements alternately into the result array `c`.
-
-Code with `zip()`:
-
-```python
-for x, y in zip(a, b):
-    result.append(x)  # Add element from 'a'
-    result.append(y)  # Add element from 'b'
-```
-
-Result:
-
-- Iteration 1: Add `1` from `a` and `4` from `b`.
-- Iteration 2: Add `2` from `a` and `5` from `b`.
-- Iteration 3: Add `3` from `a` and `6` from `b`.
-
-Output:
-
-```python
-c = [1, 4, 2, 5, 3, 6]
-```
-The `zip()` function simplifies handling the two arrays together, making the code concise and readable.
-'''
+        return result
