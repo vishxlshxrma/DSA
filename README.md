@@ -19,6 +19,8 @@ The problems are organized into the following categories:
 4. **Arrays**
     1. **Easy**
     2. **Medium**
+4. **Greedy**
+    1. **Easy**
 
 Each category contains a set of problems with explanations and solutions in python.
 
