@@ -12,13 +12,10 @@ Explanation: An array containing integers from '1' to 'n' is [1, 2, 3, 4, 5].
 
 '''
 
-from typing import List
-a = 1
-b = []
-def printNos(x: int) -> List[int]: 
-    global a
-    if a != x+1:
-        b.append(a)
-        a += 1
-        printNos(x)
-    return b
+class Solution:
+    def printTillN(self, n):
+        if (n == 0):
+            return 0
+        
+        self.printTillN(n-1)
+        print(n, end=" ")
