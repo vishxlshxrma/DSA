@@ -10,14 +10,14 @@ Currently, it's Monday, and she needs to survive for the next S days, initially 
 Find the minimum number of days on which you need to buy food from the shop so that she can survive the next S days. If it 
 is not possible to survive for S days then return -1.
 
-Examples:
-
+Example 1:
 Input: S = 10, N = 16, M = 2
 Output: 2
 Explaination: One possible solution is to buy a box on the first day (Monday), it's sufficient to eat from this box up to 
 8th day (Monday) inclusive. Now, on the 9th 
 day (Tuesday), you buy another box and use the chocolates in it to survive the 9th and 10th day.
 
+Example 2:
 Input: S = 10, N = 9, M = 8
 Output: -1
 Explaination: Let's start by detailing the days of the week and the net number of food units available after purchasing and 

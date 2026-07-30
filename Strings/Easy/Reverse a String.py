@@ -15,3 +15,6 @@ Input: s = "a"
 Output: "a"
 '''
 
+class Solution:
+    def reverseString(self, s: str) -> str:
+        return s[::-1]
