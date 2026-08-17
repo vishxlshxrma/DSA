@@ -23,6 +23,8 @@ The problems are organized into the following categories:
     1. **Easy**
 5. **Strings**
     1. **Easy**
+6. **Lists**
+    1. **Easy**
 
 Each category contains a set of problems with explanations and solutions in python.
 
