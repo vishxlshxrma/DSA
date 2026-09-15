@@ -25,6 +25,9 @@ The problems are organized into the following categories:
     1. **Easy**
 6. **Lists**
     1. **Easy**
+7. **Heaps**
+    1. **Easy**
+    2. **Medium**
 
 Each category contains a set of problems with explanations and solutions in python.
 
