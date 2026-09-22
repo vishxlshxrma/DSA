@@ -11,7 +11,7 @@ This repository is dedicated to providing a comprehensive resource for learning 
 The problems are organized into the following categories:
 
 1. **Patterns**
-2. **Basics**
+2. **DSA Basics**
     1. **Basic Maths**
     2. **Basic Recursion**
     3. **Basic Hashing**
